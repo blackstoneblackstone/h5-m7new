@@ -491,6 +491,5 @@ loadImages([
         });
     });
 </script>
-<audio src="media/love.mp3" volume="0.1" autoplay preload="auto"></audio>
 </body>
 </html>
