@@ -1003,7 +1003,7 @@ body {
     bottom: 85px;
     margin-left: 50px;
     float: left;
-    -webkit-animation: zhuang1 1s 5s ease-in-out infinite alternate;
+    -webkit-animation: zhuang1 6s 5s ease-in-out infinite alternate;
 }
 
 .page7_212 {
@@ -1014,7 +1014,7 @@ body {
     bottom: 85px;
     margin-left: 115px;
     float: left;
-    -webkit-animation: zhuang2 1.5s 5s ease-in-out infinite alternate;
+    -webkit-animation: zhuang2 6.5s 5s ease-in-out infinite alternate;
 }
 
 .page7_213 {
@@ -1025,7 +1025,7 @@ body {
     bottom: 85px;
     margin-left: 180px;
     float: left;
-    -webkit-animation: zhuang3 2s 1.5s ease-in-out infinite alternate;
+    -webkit-animation: zhuang3 7s 1.5s ease-in-out infinite alternate;
 
 }
 
@@ -1037,7 +1037,7 @@ body {
     bottom: 85px;
     margin-left: 250px;
     float: left;
-    -webkit-animation: zhuang4 2.5s 2s ease-in-out infinite alternate;
+    -webkit-animation: zhuang4 7.5s 2s ease-in-out infinite alternate;
 }
 
 .page7_21_t {
@@ -1195,7 +1195,13 @@ body {
 
 @-webkit-keyframes zhuang1 {
     0% {
-        height: 0;
+        height: 50px;
+    }
+    60%{
+        height: 50px;
+    }
+    70%{
+        height: 0px;
     }
     100% {
         height: 50px;
@@ -1204,7 +1210,13 @@ body {
 
 @-webkit-keyframes zhuang2 {
     0% {
-        height: 0%;
+        height: 80px;
+    }
+    60%{
+        height: 80px;
+    }
+    70%{
+        height: 0px;
     }
     100% {
         height: 80px;
@@ -1213,7 +1225,13 @@ body {
 
 @-webkit-keyframes zhuang3 {
     0% {
-        height: 0%;
+        height: 110px;
+    }
+    60%{
+        height: 110px;
+    }
+    70%{
+        height: 0px;
     }
     100% {
         height: 110px;
@@ -1222,7 +1240,13 @@ body {
 
 @-webkit-keyframes zhuang4 {
     0% {
-        height: 0%;
+        height: 150px;
+    }
+    60%{
+        height: 150px;
+    }
+    70%{
+        height: 0px;
     }
     100% {
         height: 150px;
